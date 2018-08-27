@@ -8,7 +8,28 @@ Rails.application.config.assets.version = '1.0'
 # Add Yarn node_modules folder to the asset load path.
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
+# CSS
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'css')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'css')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'css')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-css')
+# JS
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'js')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'js')
+# IMAGES
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','backgrounds')
+
+
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
+# Fonts
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'fonts')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'fonts' )
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+Rails.application.config.assets.precompile += %w( *.jpg)
+Rails.application.config.assets.precompile += %w( *.png )
