@@ -8,19 +8,24 @@ Rails.application.config.assets.version = '1.0'
 # Add Yarn node_modules folder to the asset load path.
 Rails.application.config.assets.paths << Rails.root.join('node_modules')
 
-# CSS
+# Css
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-css')
-# JS
+# Js
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'js')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'js')
-# IMAGES
+# Imagenes
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','backgrounds')
-
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','modal')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','screenshots')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','team')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','testimonials')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-bg-images','20x20')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-bg-images','40x40')
 
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
 # Fonts
