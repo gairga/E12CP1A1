@@ -13,7 +13,6 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'css')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'elegant-font', 'code')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'font-awesome', 'css')
-Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-css')
 # Js
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'bootstrap', 'js')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'js')
@@ -24,8 +23,7 @@ Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','modal'
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','screenshots')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','team')
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'img','testimonials')
-Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-bg-images','20x20')
-Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons','ultm-bg-images','40x40')
+Rails.application.config.assets.paths << Rails.root.join('vendor', 'ultimate-flat-social-icons')
 
 Rails.application.config.assets.paths << Rails.root.join('vendor', 'ico')
 # Fonts

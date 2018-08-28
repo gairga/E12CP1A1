@@ -15,10 +15,11 @@
  *= require style-code
  *= require animate
  *= require magnific-popup
- *= require ultm
+ *= require ultm-css/ultm
  *= require form-elements
  *= require style
  *= require media-queries
  *= require_tree .
  *= require_self
  */
+
